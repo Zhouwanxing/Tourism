@@ -1,0 +1,65 @@
+* {
+	font-size: 12px;
+}
+
+body {
+	font-family: helvetica, tahoma, verdana, sans-serif;
+	padding: 2px;
+	font-size: 13px;
+	margin: 0;
+	border: 0px;
+}
+.search_div {
+	height: 30px;
+	padding: 5px;
+	border: 1px solid #bbbbbb;
+	margin-bottom: 2px;
+	background: #fafafa;
+}
+
+
+.editTable .title {
+	text-align: right;
+}
+.editTable input[type='text'] {
+	border: solid #d3d3d3 1px;
+}
+
+.editTable {
+	text-align: left;
+	border-collapse: collapse;
+	border: none;
+	table-layout: fixed;
+	font-size: 12px;
+	color: #5E5D5D;
+	width: 100%;
+	padding: 4px;
+	margin-top: 20px;
+}
+
+.editTable span {
+	color: #595959;
+	font-weight: normal;
+}
+
+.editTable td,.editTable th {
+	border-bottom: solid #d3d3d3 1px;
+	overflow: hidden;
+	white-space: nowrap;
+	padding-left: 4px;
+	padding-right: 4px;
+	vertical-align: middle;
+	padding: 4px;
+	white-space: normal;
+}
+
+.editTable textarea {
+	border: solid #d3d3d3 1px;
+	width: 80%;
+}
+/**分页栏**/
+.easyui-pagination {
+	background: #eeeeee;
+	border: 1px solid #bbbbbb;
+	border-top-width: 0px;
+}
